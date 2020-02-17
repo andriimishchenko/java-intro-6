@@ -8,7 +8,8 @@ public class CommonStringExamples {
         String str = "Abracadabra";
         boolean f=true;
 
-
+//uncomment me
+/*
 //    char charAt(int index) - Возвращает символ по указанному индексу.
         System.out.println(str);
         System.out.print("Enter index of element: ");
@@ -117,5 +118,7 @@ public class CommonStringExamples {
         String str4Trim = "    Abracadabra    ";
         System.out.println(str4Trim);
         System.out.println(str4Trim.trim());
+
+*/
     }
 }
