@@ -14,7 +14,7 @@ public class LambdaApp {
         System.out.println(sumOf(array, exp3));
         System.out.println(sumOf(array, el -> el%2 != 0));
 
-        // old implementation
+        // old implementatio n
         System.out.println(sumOf(array, new Expression() {
             @Override
             public boolean isTrue(int el) {
